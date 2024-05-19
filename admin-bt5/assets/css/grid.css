@@ -1,0 +1,71 @@
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: chocolate;
+    line-height: 3.5rem;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1000;
+    align-items: stretch;
+}
+
+.logo {
+    max-width: 3.5rem;
+}
+
+.sidebar-header {
+    flex: 0 0 14rem;
+}
+
+.body-header {
+    background-color: #ffff;
+    width: calc(100% - 14rem);
+    background-color: gray; /* this is for test */
+}
+
+.search-area {
+    background-color: #dcdcdc;
+    padding: .3rem .6rem;
+    border-radius: 2rem;
+}
+
+.search-input {
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    border: none;
+    margin: .6rem;
+}
+
+.header-notification {
+    position: absolute;
+    left: 0;
+    margin-top: .2rem;
+    width: 16rem;
+    background-color: white;
+    color: black;
+    box-shadow: 0 1px 20px 0 rgba(70, 90, 100, .08);
+}
+
+.notification-img {
+    width: 3rem;
+    border-radius: .1rem;
+}
+
+.notification-user {
+    font-size: .8rem;
+    font-weight: bold;
+    margin-top: .3rem;
+}
+
+.notification-text {
+    font-size: .7rem;
+    line-height: .7rem;
+}
+
+.notification-time {
+    font-size: .6rem;
+    line-height: .6rem;
+    color: #919aa3;
+}
